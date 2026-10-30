@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.cache/
+data/
+.env
+.env.*
+!.env.example
+!.env.deepseek.example
+coverage/
+*.tsbuildinfo
+.DS_Store

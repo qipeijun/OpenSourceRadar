@@ -1,0 +1,112 @@
+{
+  "at": "2026-10-30T07:43:43.836Z",
+  "project": "HKUDS/DeepTutor",
+  "timeoutMs": 300000,
+  "elapsedMs": 136695,
+  "request": {
+    "model": "gpt-6.1-sol",
+    "protocol": "responses",
+    "store": false,
+    "tools": [
+      {
+        "type": "web_search"
+      }
+    ],
+    "tool_choice": "required",
+    "headers": [
+      "authorization: [已脱敏]",
+      "x-openai-actor-authorization: [已配置]"
+    ]
+  },
+  "search": {
+    "status": "success",
+    "outcome": "cited",
+    "queries": [
+      "\"HKUDS/DeepTutor\" 中文 安装 教程",
+      "\"HKUDS/DeepTutor\" 报错 求助",
+      "\"HKUDS/DeepTutor\" 使用 体验",
+      "\"HKUDS/DeepTutor\" \"教程\" -site:github.com -site:deeptutor.info",
+      "\"HKUDS/DeepTutor\" \"报错\"",
+      "\"HKUDS/DeepTutor\" \"安装\" \"CSDN\"",
+      "site:github.com/HKUDS/DeepTutor/issues \"中文\"",
+      "\"HKUDS/DeepTutor\" \"安装失败\"",
+      "\"HKUDS/DeepTutor\" \"使用体验\"",
+      "\"HKUDS/DeepTutor\" site:github.com/HKUDS/DeepTutor/issues \"无法\""
+    ],
+    "citationCount": 12,
+    "evidence": [
+      {
+        "title": "DeepTutor/assets/README/README_CN.md at main · HKUDS/DeepTutor · GitHub",
+        "url": "https://github.com/HKUDS/DeepTutor/blob/main/assets/README/README_CN.md?utm_source=openai",
+        "coverage": "excerpt"
+      },
+      {
+        "title": "故障排查 | DeepTutor",
+        "url": "https://docs.deeptutor.info/zh-cn/get-started/troubleshooting/",
+        "coverage": "excerpt"
+      },
+      {
+        "title": "GitHub - chencore/deeptutor-guide: DeepTutor 安装与使用完全指南 | HKUDS/DeepTutor 中文教程 · GitHub",
+        "url": "https://github.com/chencore/deeptutor-guide",
+        "coverage": "excerpt"
+      },
+      {
+        "title": "Releases · HKUDS/DeepTutor · GitHub",
+        "url": "https://github.com/HKUDS/DeepTutor/releases",
+        "coverage": "excerpt"
+      },
+      {
+        "title": "[Bug]: docker 命令无法启动 · Issue #53 · HKUDS/DeepTutor · GitHub",
+        "url": "https://github.com/HKUDS/DeepTutor/issues/53",
+        "coverage": "excerpt"
+      },
+      {
+        "title": "[Bug]:1.3.0版知识库无法预览文件，显示“Failed to list files (404)”（Docker部署） · Issue #410 · HKUDS/DeepTutor · GitHub",
+        "url": "https://github.com/HKUDS/DeepTutor/issues/410",
+        "coverage": "excerpt"
+      },
+      {
+        "title": "[Bug]:一些聊天中显示的问题和出题无法被记录的bug · Issue #575 · HKUDS/DeepTutor · GitHub",
+        "url": "https://github.com/HKUDS/DeepTutor/issues/575",
+        "coverage": "excerpt"
+      },
+      {
+        "title": "[Feature Request] Add a persistent reusable file library across conversations · Issue #1437 · HKUDS/DeepTutor · GitHub",
+        "url": "https://github.com/HKUDS/DeepTutor/issues/1437",
+        "coverage": "excerpt"
+      },
+      {
+        "title": "Discussion: Should DeepTutor become installable apps? · Issue #592 · HKUDS/DeepTutor · GitHub",
+        "url": "https://github.com/HKUDS/DeepTutor/issues/592",
+        "coverage": "excerpt"
+      },
+      {
+        "title": "[Bug] Immersive PDF reader omits text requiring external CMaps (missing cMapUrl and packaged assets) · Issue #2055 · HKUDS/DeepTutor · GitHub",
+        "url": "https://github.com/HKUDS/DeepTutor/issues/2055",
+        "coverage": "excerpt"
+      },
+      {
+        "title": "[Bug] Chat home shows \"模型加载中\" indefinitely; forced send → \"无法连接服务器\" (no retry on ReadError/ConnectTimeout) · Issue #769 · HKUDS/DeepTutor · GitHub",
+        "url": "https://github.com/HKUDS/DeepTutor/issues/769?utm_source=openai",
+        "coverage": "excerpt"
+      },
+      {
+        "title": "DeepTutor 本地部署教程：Docker、模型配置与代码执行安全设置",
+        "url": "https://knightli.com/2026/07/22/deeptutor-local-deploy-docker-model-sandbox-security/?utm_source=openai",
+        "coverage": "excerpt"
+      }
+    ],
+    "usage": {
+      "input_tokens": 58971,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 8448
+      },
+      "output_tokens": 3066,
+      "output_tokens_details": {
+        "reasoning_tokens": 798
+      },
+      "total_tokens": 62037
+    }
+  }
+}

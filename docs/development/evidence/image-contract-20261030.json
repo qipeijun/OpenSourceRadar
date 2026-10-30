@@ -1,0 +1,159 @@
+{
+  "at": "2026-10-30T07:45:39.548Z",
+  "elapsedMs": 74082,
+  "request": {
+    "model": "gpt-6.1-sol",
+    "store": false,
+    "tools": [
+      {
+        "type": "image_generation",
+        "model": "gpt-image-2.5-sunburst"
+      }
+    ],
+    "tool_choice": "required",
+    "prompt": "为中文技术分享制作一张竖版封面图：浅色简洁背景，中央一个笔记本电脑轮廓，屏幕里显示发光的文档页面，周围有若干小图标。画面顶部留出一条空白区域，用于后期添加标题。不要出现任何文字、字母或数字。"
+  },
+  "headers": [
+    "authorization: [已脱敏]",
+    "x-openai-actor-authorization: [已配置]"
+  ],
+  "responseShape": {
+    "id": "resp_0beccba23165c1c0016ae44ae246ac87d0adf657fb6a5a7776",
+    "object": "response",
+    "created_at": 1793346274,
+    "status": "completed",
+    "access_programs": {
+      "cyber": "standard"
+    },
+    "background": false,
+    "completed_at": 1793346318,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": "[base64 或长文本，长度 21767，前缀 You are Codex, an agent ]",
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "output": [
+      {
+        "id": "msg_0beccba23165c1c0016ae44ae44a7c87d0a3bcf4f105dad26f",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "我会采用浅色极简风格，在顶部保留充足留白，并用柔和光效突出电脑屏幕中的文档，全图不含文字、字母或数字。"
+          }
+        ],
+        "phase": "commentary",
+        "role": "assistant"
+      },
+      {
+        "id": "ig_0beccba23165c1c0016ae44ae6791887d0bdad145caa722f23",
+        "type": "image_generation_call",
+        "status": "completed",
+        "action": "generate",
+        "background": "opaque",
+        "output_format": "png",
+        "quality": "medium",
+        "result": "[base64 或长文本，长度 2026028，前缀 iVBORw0KGgoAAAANSUhEUgAA]",
+        "revised_prompt": "[base64 或长文本，长度 428，前缀 制作一张精致的竖版中文技术分享封面插图，画幅比例]",
+        "size": "1086x1448"
+      },
+      {
+        "id": "msg_0beccba23165c1c0016ae44b0e9dc087d0bc00aa6c9adde3d1",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": ""
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": "cb14a5a1-779d-4f35-9335-a05ac7739543",
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": "user-dOVl9CM46rM1DqED1nFQ5Qru",
+    "service_tier": "default",
+    "store": false,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "required",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 381,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 381
+        },
+        "output_tokens": 686,
+        "output_tokens_details": {
+          "image_tokens": 686,
+          "text_tokens": 0
+        },
+        "total_tokens": 1067
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "image_generation",
+        "background": "auto",
+        "model": "gpt-image-2-codex",
+        "moderation": "auto",
+        "n": 1,
+        "output_compression": 100,
+        "output_format": "png",
+        "quality": "auto",
+        "size": "auto"
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 6921,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 4224
+      },
+      "output_tokens": 442,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7363
+    },
+    "user": null,
+    "metadata": {}
+  },
+  "imageParts": [
+    {
+      "path": "data/capability-probes/cover-1.png",
+      "bytes": 1519519
+    }
+  ]
+}

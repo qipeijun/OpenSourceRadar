@@ -1,0 +1,88 @@
+{
+  "at": "2026-10-30T06:59:40.836Z",
+  "project": "HKUDS/DeepTutor",
+  "searchModel": "deepseek-v4-pro",
+  "analysisModel": "gpt-6.1-sol",
+  "search": {
+    "status": "failed",
+    "error": "外部服务未返回合法 JSON"
+  },
+  "brief": {
+    "status": "success",
+    "id": "21dd11ba-a45e-44a6-8d86-be547181dbde",
+    "usage": {
+      "input_tokens": 12362,
+      "input_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "output_tokens": 1364,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 13726,
+      "attribution": {
+        "items": {
+          "msg_0c0d0d9dff089048016ae440d75208819187533ff679f480e3": {
+            "input_tokens": 7702,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 7702,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0c0d0d9dff089048016ae440d752088191adb38f8f248e2e20": {
+            "input_tokens": 223,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0,
+            "content": [
+              {
+                "input_tokens": 223,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            ]
+          },
+          "msg_0c0d0d9dff089048016ae440dd13348191a0599636c5a9a1bb": {
+            "input_tokens": 2,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 1364,
+            "content": [
+              {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 1364
+              }
+            ]
+          }
+        },
+        "request_fields": {
+          "instructions": {
+            "input_tokens": 4435,
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "output_tokens": 0
+          }
+        }
+      }
+    },
+    "provider": "100.100.8.99",
+    "model": "gpt-6.1-sol",
+    "sections": {
+      "purpose": 3,
+      "environment": 3,
+      "dependencies": 4,
+      "limitations": 4
+    }
+  }
+}

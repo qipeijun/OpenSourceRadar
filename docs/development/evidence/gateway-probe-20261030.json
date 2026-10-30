@@ -1,0 +1,578 @@
+[
+  {
+    "name": "模型目录",
+    "path": "/models",
+    "at": "2026-10-30T06:46:22.584Z",
+    "request": null,
+    "headers": [
+      "authorization: [已脱敏]",
+      "x-openai-actor-authorization: [已配置]"
+    ],
+    "status": "success",
+    "elapsedMs": 148,
+    "httpStatus": 200,
+    "response": {
+      "keys": [
+        "data",
+        "object"
+      ],
+      "models": [
+        "codex-auto-review",
+        "gpt-5.6-luna",
+        "gpt-5.6-sol",
+        "gpt-5.6-terra",
+        "gpt-6-astra",
+        "gpt-6-luna",
+        "gpt-6-sol",
+        "gpt-6.1-sol",
+        "gpt-6.1-terra",
+        "gpt-image-1",
+        "gpt-image-1.5",
+        "gpt-image-2",
+        "gpt-image-2.5-flare",
+        "gpt-image-2.5-sunburst",
+        "gpt-reserve"
+      ]
+    }
+  },
+  {
+    "name": "Responses 文本",
+    "path": "/responses",
+    "at": "2026-10-30T06:46:22.732Z",
+    "request": {
+      "model": "gpt-6.1-sol",
+      "store": false,
+      "input": "只回复 OK",
+      "max_output_tokens": 64
+    },
+    "headers": [
+      "authorization: [已脱敏]",
+      "x-openai-actor-authorization: [已配置]"
+    ],
+    "status": "success",
+    "elapsedMs": 7960,
+    "httpStatus": 200,
+    "response": {
+      "keys": [
+        "id",
+        "object",
+        "created_at",
+        "completed_at",
+        "status",
+        "background",
+        "frequency_penalty",
+        "presence_penalty",
+        "moderation",
+        "model",
+        "access_programs",
+        "previous_response_id",
+        "instructions",
+        "output",
+        "error",
+        "incomplete_details",
+        "tools",
+        "tool_choice",
+        "parallel_tool_calls",
+        "prompt_cache_key",
+        "prompt_cache_retention",
+        "text",
+        "top_p",
+        "top_logprobs",
+        "temperature",
+        "reasoning",
+        "user",
+        "usage",
+        "tool_usage",
+        "safety_identifier",
+        "store",
+        "metadata",
+        "max_output_tokens",
+        "max_tool_calls",
+        "service_tier",
+        "truncation"
+      ],
+      "status": "completed",
+      "usage": {
+        "input_tokens": 4225,
+        "input_tokens_details": {
+          "cached_tokens": 4096,
+          "cache_write_tokens": 0
+        },
+        "output_tokens": 5,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4230,
+        "attribution": {
+          "items": {
+            "msg_091d85713b3de6f3016ae43d3f70f88191900026f60ffceb64": {
+              "input_tokens": 7,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 0,
+              "content": [
+                {
+                  "input_tokens": 7,
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "output_tokens": 0
+                }
+              ]
+            },
+            "msg_091d85713b3de6f3016ae43d413ec48191bfa943b0c6f8d020": {
+              "input_tokens": 2,
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "output_tokens": 5,
+              "content": [
+                {
+                  "input_tokens": 2,
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "output_tokens": 5
+                }
+              ]
+            }
+          },
+          "request_fields": {
+            "instructions": {
+              "input_tokens": 4216,
+              "cached_tokens": 4096,
+              "cache_write_tokens": 0,
+              "output_tokens": 0
+            }
+          }
+        }
+      },
+      "output": [
+        {
+          "type": "message",
+          "status": "completed",
+          "text": "OK",
+          "hasImage": false
+        }
+      ]
+    }
+  },
+  {
+    "name": "公开检索",
+    "path": "/responses",
+    "at": "2026-10-30T06:46:30.694Z",
+    "request": {
+      "model": "gpt-6.1-sol",
+      "store": false,
+      "tools": [
+        {
+          "type": "web_search"
+        }
+      ],
+      "tool_choice": "required",
+      "input": "搜索 GitHub 官方网站并给出带 URL 引用的简短介绍。",
+      "max_output_tokens": 512
+    },
+    "headers": [
+      "authorization: [已脱敏]",
+      "x-openai-actor-authorization: [已配置]"
+    ],
+    "status": "success",
+    "elapsedMs": 38798,
+    "httpStatus": 200,
+    "response": {
+      "keys": [
+        "id",
+        "object",
+        "created_at",
+        "status",
+        "access_programs",
+        "background",
+        "completed_at",
+        "error",
+        "frequency_penalty",
+        "incomplete_details",
+        "instructions",
+        "max_output_tokens",
+        "max_tool_calls",
+        "model",
+        "moderation",
+        "output",
+        "parallel_tool_calls",
+        "presence_penalty",
+        "previous_response_id",
+        "prompt_cache_key",
+        "prompt_cache_retention",
+        "reasoning",
+        "safety_identifier",
+        "service_tier",
+        "store",
+        "temperature",
+        "text",
+        "tool_choice",
+        "tool_usage",
+        "tools",
+        "top_logprobs",
+        "top_p",
+        "truncation",
+        "usage",
+        "user",
+        "metadata"
+      ],
+      "status": "completed",
+      "usage": {
+        "input_tokens": 12848,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 8448
+        },
+        "output_tokens": 202,
+        "output_tokens_details": {
+          "reasoning_tokens": 35
+        },
+        "total_tokens": 13050
+      },
+      "output": [
+        {
+          "type": "message",
+          "status": "completed",
+          "text": "我会搜索 GitHub 官方网站，并根据官网内容给出简短介绍和 URL 引用。",
+          "hasImage": false
+        },
+        {
+          "type": "web_search_call",
+          "status": "completed",
+          "action": {
+            "type": "search",
+            "queries": [
+              "GitHub official website"
+            ],
+            "query": "GitHub official website"
+          },
+          "hasImage": false
+        },
+        {
+          "type": "message",
+          "status": "completed",
+          "text": "**GitHub 官方网站：**[https://github.com/](https://github.com/)。([github.com](https://github.com/?utm_source=openai))\n\nGitHub 是基于 Git 的代码托管与协作开发平台，可用于存储代码、追踪版本变化、审查代码和管理项目，适合个人开发、团队协作及参与开源项目。([docs.github.com](https://docs.github.com/en/get-started/start-your-journey/what-is-github?utm_source=openai)) 官网还提供 GitHub Actions 自动化工作流、Codespaces 云端开发环境和 Copilot AI 编程辅助等工具。([github.com](https://github.com/?utm_source=openai))",
+          "hasImage": false
+        }
+      ]
+    }
+  },
+  {
+    "name": "Responses 生图工具",
+    "path": "/responses",
+    "at": "2026-10-30T06:47:09.494Z",
+    "request": {
+      "model": "gpt-6.1-sol",
+      "store": false,
+      "tools": [
+        {
+          "type": "image_generation"
+        }
+      ],
+      "tool_choice": "required",
+      "input": "Generate a simple blue circle on a plain white background. No text."
+    },
+    "headers": [
+      "authorization: [已脱敏]",
+      "x-openai-actor-authorization: [已配置]"
+    ],
+    "status": "success",
+    "elapsedMs": 24308,
+    "httpStatus": 200,
+    "response": {
+      "keys": [
+        "id",
+        "object",
+        "created_at",
+        "status",
+        "access_programs",
+        "background",
+        "completed_at",
+        "error",
+        "frequency_penalty",
+        "incomplete_details",
+        "instructions",
+        "max_output_tokens",
+        "max_tool_calls",
+        "model",
+        "moderation",
+        "output",
+        "parallel_tool_calls",
+        "presence_penalty",
+        "previous_response_id",
+        "prompt_cache_key",
+        "prompt_cache_retention",
+        "reasoning",
+        "safety_identifier",
+        "service_tier",
+        "store",
+        "temperature",
+        "text",
+        "tool_choice",
+        "tool_usage",
+        "tools",
+        "top_logprobs",
+        "top_p",
+        "truncation",
+        "usage",
+        "user",
+        "metadata"
+      ],
+      "status": "completed",
+      "usage": {
+        "input_tokens": 6551,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 91,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 6642
+      },
+      "output": [
+        {
+          "type": "message",
+          "status": "completed",
+          "text": "I’ll generate a blue circle centered on a plain white background, with no text.",
+          "hasImage": false
+        },
+        {
+          "type": "image_generation_call",
+          "status": "completed",
+          "action": "generate",
+          "hasImage": true
+        },
+        {
+          "type": "message",
+          "status": "completed",
+          "text": "",
+          "hasImage": false
+        }
+      ]
+    }
+  },
+  {
+    "name": "生图文件核验",
+    "path": "/responses",
+    "at": "2026-10-30T06:47:55.918Z",
+    "request": {
+      "model": "gpt-6.1-sol",
+      "store": false,
+      "tools": [
+        {
+          "type": "image_generation",
+          "model": "gpt-image-2.5-sunburst"
+        }
+      ],
+      "tool_choice": "required",
+      "input": "Generate a blue circle centered on a plain white background. No text."
+    },
+    "headers": [
+      "authorization: [已脱敏]",
+      "x-openai-actor-authorization: [已配置]"
+    ],
+    "status": "success",
+    "elapsedMs": 22548,
+    "httpStatus": 200,
+    "response": {
+      "keys": [
+        "id",
+        "object",
+        "created_at",
+        "status",
+        "access_programs",
+        "background",
+        "completed_at",
+        "error",
+        "frequency_penalty",
+        "incomplete_details",
+        "instructions",
+        "max_output_tokens",
+        "max_tool_calls",
+        "model",
+        "moderation",
+        "output",
+        "parallel_tool_calls",
+        "presence_penalty",
+        "previous_response_id",
+        "prompt_cache_key",
+        "prompt_cache_retention",
+        "reasoning",
+        "safety_identifier",
+        "service_tier",
+        "store",
+        "temperature",
+        "text",
+        "tool_choice",
+        "tool_usage",
+        "tools",
+        "top_logprobs",
+        "top_p",
+        "truncation",
+        "usage",
+        "user",
+        "metadata"
+      ],
+      "status": "completed",
+      "usage": {
+        "input_tokens": 6554,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 4224
+        },
+        "output_tokens": 94,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 6648
+      },
+      "output": [
+        {
+          "type": "message",
+          "status": "completed",
+          "text": "I’ll generate a blue circle centered on a plain white background, with no text.",
+          "hasImage": false
+        },
+        {
+          "type": "image_generation_call",
+          "status": "completed",
+          "action": "generate",
+          "hasImage": true
+        },
+        {
+          "type": "message",
+          "status": "completed",
+          "text": "",
+          "hasImage": false
+        }
+      ]
+    }
+  },
+  {
+    "name": "参考图编辑",
+    "path": "/responses",
+    "at": "2026-10-30T06:48:18.470Z",
+    "request": {
+      "model": "gpt-6.1-sol",
+      "store": false,
+      "tools": [
+        {
+          "type": "image_generation",
+          "model": "gpt-image-2.5-sunburst"
+        }
+      ],
+      "tool_choice": "required",
+      "input": "[参考图片和编辑要求，图片数据省略]"
+    },
+    "headers": [
+      "authorization: [已脱敏]",
+      "x-openai-actor-authorization: [已配置]"
+    ],
+    "status": "network_failed",
+    "elapsedMs": 45011,
+    "httpStatus": 200,
+    "error": {
+      "name": "TimeoutError",
+      "code": null
+    }
+  },
+  {
+    "name": "参考图编辑",
+    "path": "/responses",
+    "at": "2026-10-30T06:49:22.741Z",
+    "request": {
+      "model": "gpt-6.1-sol",
+      "store": false,
+      "tools": [
+        {
+          "type": "image_generation",
+          "model": "gpt-image-2.5-sunburst"
+        }
+      ],
+      "tool_choice": "required",
+      "input": "[参考图片和编辑要求，图片数据省略]"
+    },
+    "headers": [
+      "authorization: [已脱敏]",
+      "x-openai-actor-authorization: [已配置]"
+    ],
+    "status": "success",
+    "elapsedMs": 29503,
+    "httpStatus": 200,
+    "response": {
+      "keys": [
+        "id",
+        "object",
+        "created_at",
+        "status",
+        "access_programs",
+        "background",
+        "completed_at",
+        "error",
+        "frequency_penalty",
+        "incomplete_details",
+        "instructions",
+        "max_output_tokens",
+        "max_tool_calls",
+        "model",
+        "moderation",
+        "output",
+        "parallel_tool_calls",
+        "presence_penalty",
+        "previous_response_id",
+        "prompt_cache_key",
+        "prompt_cache_retention",
+        "reasoning",
+        "safety_identifier",
+        "service_tier",
+        "store",
+        "temperature",
+        "text",
+        "tool_choice",
+        "tool_usage",
+        "tools",
+        "top_logprobs",
+        "top_p",
+        "truncation",
+        "usage",
+        "user",
+        "metadata"
+      ],
+      "status": "completed",
+      "usage": {
+        "input_tokens": 8477,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 4224
+        },
+        "output_tokens": 94,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 8571
+      },
+      "output": [
+        {
+          "type": "message",
+          "status": "completed",
+          "text": "I’ll change the circle to red and keep the white background, size, and placement the same.",
+          "hasImage": false
+        },
+        {
+          "type": "image_generation_call",
+          "status": "completed",
+          "action": "edit",
+          "hasImage": true
+        },
+        {
+          "type": "message",
+          "status": "completed",
+          "text": "",
+          "hasImage": false
+        }
+      ]
+    }
+  }
+]

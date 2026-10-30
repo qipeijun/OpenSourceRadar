@@ -1,0 +1,646 @@
+{
+  "run": {
+    "id": "65add78f-4dc5-4aaf-bddc-bf50e5a11136",
+    "kind": "analyze",
+    "projectId": null,
+    "status": "failed",
+    "stage": "运行已中断",
+    "startedAt": "2026-10-30T08:30:04.280Z",
+    "finishedAt": "2026-10-30T08:52:25.280Z",
+    "total": 10,
+    "completed": 7,
+    "errors": [
+      "elayadesign/ai-design-skills：外部服务返回 HTTP 502",
+      "本地服务正在关闭，任务已中断"
+    ]
+  },
+  "projects": [
+    {
+      "id": 1155965274,
+      "fullName": "Donchitos/Claude-Code-Game-Studios",
+      "analysisId": "419e22c3-f9d3-4e2c-b3af-3e27c2770ce9",
+      "recommendation": "verify",
+      "summary": "先核验素材接入求助与现有中文教程的版本覆盖，再决定是否实测“做出可玩小游戏”的差异化教程，当前不宜仅凭热度投入付费课程或部署服务。",
+      "usage": {
+        "analysis": {
+          "input_tokens": 24788,
+          "input_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0
+          },
+          "output_tokens": 2462,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 27250,
+          "attribution": {
+            "items": {
+              "msg_0fa531dccde1868e016ae45780e66c8191af79aeb7af74d707": {
+                "input_tokens": 677,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0,
+                "content": [
+                  {
+                    "input_tokens": 677,
+                    "cached_tokens": 0,
+                    "cache_write_tokens": 0,
+                    "output_tokens": 0
+                  }
+                ]
+              },
+              "msg_0fa531dccde1868e016ae45780e66c8191b069692fce175903": {
+                "input_tokens": 19220,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0,
+                "content": [
+                  {
+                    "input_tokens": 19220,
+                    "cached_tokens": 0,
+                    "cache_write_tokens": 0,
+                    "output_tokens": 0
+                  }
+                ]
+              },
+              "msg_0fa531dccde1868e016ae45783c7d0819189ba3af59b8a2696": {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 2462,
+                "content": [
+                  {
+                    "input_tokens": 2,
+                    "cached_tokens": 0,
+                    "cache_write_tokens": 0,
+                    "output_tokens": 2462
+                  }
+                ]
+              }
+            },
+            "request_fields": {
+              "instructions": {
+                "input_tokens": 4889,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            }
+          }
+        },
+        "search": {
+          "usage": {
+            "input_tokens": 66221,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 8448
+            },
+            "output_tokens": 3292,
+            "output_tokens_details": {
+              "reasoning_tokens": 937
+            },
+            "total_tokens": 69513
+          },
+          "queries": [
+            "\"Donchitos/Claude-Code-Game-Studios\" 中文 教程 安装",
+            "\"Donchitos/Claude-Code-Game-Studios\" 报错 求助 问题",
+            "\"Donchitos/Claude-Code-Game-Studios\" 使用 游戏",
+            "\"Donchitos/Claude-Code-Game-Studios\" \"求助\"",
+            "\"Donchitos/Claude-Code-Game-Studios\" \"报错\"",
+            "\"Donchitos/Claude-Code-Game-Studios\" 中文 实测 游戏 案例",
+            "\"Donchitos/Claude-Code-Game-Studios\" site:csdn.net",
+            "\"Donchitos/Claude-Code-Game-Studios\" \"问题\" \"中文\"",
+            "\"Donchitos/Claude-Code-Game-Studios\" site:zhihu.com",
+            "\"Donchitos/Claude-Code-Game-Studios\" site:bilibili.com",
+            "\"Donchitos/Claude-Code-Game-Studios\" \"实战\"",
+            "\"Donchitos/Claude-Code-Game-Studios\" \"求助\" \"安装\"",
+            "\"Donchitos/Claude-Code-Game-Studios\" \"报错\" \"Windows\""
+          ],
+          "outcome": "cited"
+        }
+      }
+    },
+    {
+      "id": 1273646780,
+      "fullName": "togg53192-cmd/jailbreaks",
+      "analysisId": "9596be27-5142-4c05-9b25-12b0ca94c638",
+      "recommendation": "verify",
+      "summary": "先核验中文求助与教程原文，再决定是否做小范围配置排错实测；暂不投入付费课程或承诺效果的部署服务。",
+      "usage": {
+        "analysis": {
+          "input_tokens": 16418,
+          "input_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0
+          },
+          "output_tokens": 2149,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 18567,
+          "attribution": {
+            "items": {
+              "msg_097f2c452c8e5371016ae4581e348081919f07825a44545e76": {
+                "input_tokens": 10850,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0,
+                "content": [
+                  {
+                    "input_tokens": 10850,
+                    "cached_tokens": 0,
+                    "cache_write_tokens": 0,
+                    "output_tokens": 0
+                  }
+                ]
+              },
+              "msg_097f2c452c8e5371016ae4581e34808191a69b7ca5dd98aa67": {
+                "input_tokens": 677,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0,
+                "content": [
+                  {
+                    "input_tokens": 677,
+                    "cached_tokens": 0,
+                    "cache_write_tokens": 0,
+                    "output_tokens": 0
+                  }
+                ]
+              },
+              "msg_097f2c452c8e5371016ae458204a7081919bec961f95012882": {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 2149,
+                "content": [
+                  {
+                    "input_tokens": 2,
+                    "cached_tokens": 0,
+                    "cache_write_tokens": 0,
+                    "output_tokens": 2149
+                  }
+                ]
+              }
+            },
+            "request_fields": {
+              "instructions": {
+                "input_tokens": 4889,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            }
+          }
+        },
+        "search": {
+          "usage": {
+            "input_tokens": 46325,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 8448
+            },
+            "output_tokens": 2546,
+            "output_tokens_details": {
+              "reasoning_tokens": 669
+            },
+            "total_tokens": 48871
+          },
+          "queries": [
+            "\"togg53192-cmd/jailbreaks\" 中文 教程 安装",
+            "\"togg53192-cmd/jailbreaks\" 求助 报错 使用",
+            "\"togg53192-cmd\" \"jailbreaks\"",
+            "\"togg53192-cmd/jailbreaks\" \"教程\"",
+            "\"togg53192-cmd/jailbreaks\" \"报错\"",
+            "\"togg53192-cmd/jailbreaks\" \"求助\"",
+            "\"togg53192-cmd/jailbreaks\" \"实测\"",
+            "\"togg53192-cmd/jailbreaks\" site:linux.do",
+            "\"togg53192-cmd/jailbreaks\" 安装 失败",
+            "\"togg53192-cmd/jailbreaks\" site:zhihu.com",
+            "\"togg53192-cmd/jailbreaks\" site:v2ex.com"
+          ],
+          "outcome": "cited"
+        }
+      }
+    },
+    {
+      "id": 1331261687,
+      "fullName": "milind-soni/OpenMausBot",
+      "analysisId": "cb7d7bf8-64f4-4494-839d-7a0be4623d46",
+      "recommendation": "verify",
+      "summary": "OpenMausBot 有显著单日关注度和中文适配需求线索，但中文教程已经存在，宜先核验当前版本的需求与实测内容缺口，再决定是否制作付费教程或提供部署服务。",
+      "usage": {
+        "analysis": {
+          "input_tokens": 23627,
+          "input_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0
+          },
+          "output_tokens": 2449,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 26076,
+          "attribution": {
+            "items": {
+              "msg_0bb400e31f083b8c016ae458d9dd3081919a5749e316d37f6c": {
+                "input_tokens": 677,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0,
+                "content": [
+                  {
+                    "input_tokens": 677,
+                    "cached_tokens": 0,
+                    "cache_write_tokens": 0,
+                    "output_tokens": 0
+                  }
+                ]
+              },
+              "msg_0bb400e31f083b8c016ae458d9dd308191af0ed19105e042fc": {
+                "input_tokens": 18059,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0,
+                "content": [
+                  {
+                    "input_tokens": 18059,
+                    "cached_tokens": 0,
+                    "cache_write_tokens": 0,
+                    "output_tokens": 0
+                  }
+                ]
+              },
+              "msg_0bb400e31f083b8c016ae458dba98081918141fbefbfb7dc2f": {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 2449,
+                "content": [
+                  {
+                    "input_tokens": 2,
+                    "cached_tokens": 0,
+                    "cache_write_tokens": 0,
+                    "output_tokens": 2449
+                  }
+                ]
+              }
+            },
+            "request_fields": {
+              "instructions": {
+                "input_tokens": 4889,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            }
+          }
+        },
+        "search": {
+          "usage": {
+            "input_tokens": 54729,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 8448
+            },
+            "output_tokens": 3245,
+            "output_tokens_details": {
+              "reasoning_tokens": 962
+            },
+            "total_tokens": 57974
+          },
+          "queries": [
+            "\"milind-soni/OpenMausBot\" 中文 教程 安装",
+            "\"milind-soni/OpenMausBot\" 求助 报错 问题",
+            "\"OpenMausBot\" 中文",
+            "\"milind-soni/OpenMausBot\"",
+            "\"milind-soni/OpenMausBot\" \"教程\"",
+            "\"milind-soni/OpenMausBot\" \"报错\"",
+            "\"OpenMausBot\" \"求助\"",
+            "\"OpenMausBot\" \"安装\" \"中文\"",
+            "\"milind-soni/OpenMausBot\" \"求助\" \"安装\"",
+            "\"OpenMausBot\" \"报错\" -site:maliradar.cn",
+            "site:github.com/milind-soni/OpenMausBot/issues \"中文\"",
+            "\"OpenMausBot\" \"使用\" \"失败\"",
+            "\"OpenMausBot\" \"求助\" -site:tool.lu",
+            "\"OpenMausBot\" site:v2ex.com",
+            "\"OpenMausBot\" site:linux.do",
+            "\"OpenMausBot\" site:github.com/milind-soni/OpenMausBot/issues \"Chinese\""
+          ],
+          "outcome": "cited"
+        }
+      }
+    },
+    {
+      "id": 1293238217,
+      "fullName": "JetBrains/thinkrail",
+      "analysisId": "1a9bc1cd-3c9c-4aad-acdc-0030542f91e3",
+      "recommendation": "verify",
+      "summary": "ThinkRail 当日关注度突出，但中文上手内容已有线索，应先核验存量项目导入与并行合并的需求及教程缺口，再决定是否实测制作付费内容；本次未实测。",
+      "usage": {
+        "analysis": {
+          "input_tokens": 21945,
+          "input_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0
+          },
+          "output_tokens": 2493,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 24438,
+          "attribution": {
+            "items": {
+              "msg_0b1e19af66dd943d016ae45a18ab80819180789f2706a90971": {
+                "input_tokens": 16377,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0,
+                "content": [
+                  {
+                    "input_tokens": 16377,
+                    "cached_tokens": 0,
+                    "cache_write_tokens": 0,
+                    "output_tokens": 0
+                  }
+                ]
+              },
+              "msg_0b1e19af66dd943d016ae45a18ab808191b1969560485057cd": {
+                "input_tokens": 677,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0,
+                "content": [
+                  {
+                    "input_tokens": 677,
+                    "cached_tokens": 0,
+                    "cache_write_tokens": 0,
+                    "output_tokens": 0
+                  }
+                ]
+              },
+              "msg_0b1e19af66dd943d016ae45a1a9c788191b511f88b594bf42c": {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 2493,
+                "content": [
+                  {
+                    "input_tokens": 2,
+                    "cached_tokens": 0,
+                    "cache_write_tokens": 0,
+                    "output_tokens": 2493
+                  }
+                ]
+              }
+            },
+            "request_fields": {
+              "instructions": {
+                "input_tokens": 4889,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            }
+          }
+        },
+        "search": {
+          "usage": {
+            "input_tokens": 58673,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 8448
+            },
+            "output_tokens": 2952,
+            "output_tokens_details": {
+              "reasoning_tokens": 836
+            },
+            "total_tokens": 61625
+          },
+          "queries": [
+            "\"JetBrains/thinkrail\" 中文 安装 教程",
+            "\"JetBrains/thinkrail\" 报错 求助 使用",
+            "\"JetBrains/thinkrail\"",
+            "\"thinkrail\" 中文 JetBrains 教程",
+            "\"JetBrains/thinkrail\" \"教程\"",
+            "\"JetBrains/thinkrail\" \"求助\"",
+            "\"JetBrains/thinkrail\" \"报错\"",
+            "\"thinkrail\" \"安装\" \"失败\" 中文",
+            "\"JetBrains/thinkrail\" site:csdn.net \"安装\"",
+            "\"JetBrains/thinkrail\" \"问题\" \"Windows\"",
+            "\"thinkrail\" \"求助\" \"JetBrains\"",
+            "\"thinkrail\" \"报错\" \"解决\""
+          ],
+          "outcome": "cited"
+        }
+      }
+    },
+    {
+      "id": 1097346685,
+      "fullName": "pbakaus/impeccable",
+      "analysisId": "84088f2d-ccbb-4e3e-bc01-2ec614f82590",
+      "recommendation": "verify",
+      "summary": "Impeccable 当日关注度高，但中文入门内容已有覆盖，宜先核验当前版本迁移和可复现案例的缺口，再决定是否实测制作付费教程。",
+      "usage": {
+        "analysis": {
+          "input_tokens": 20604,
+          "input_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0
+          },
+          "output_tokens": 2410,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 23014,
+          "attribution": {
+            "items": {
+              "msg_08be1f356e94127f016ae4560ef1048191a1fe8e7bbc580858": {
+                "input_tokens": 15036,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0,
+                "content": [
+                  {
+                    "input_tokens": 15036,
+                    "cached_tokens": 0,
+                    "cache_write_tokens": 0,
+                    "output_tokens": 0
+                  }
+                ]
+              },
+              "msg_08be1f356e94127f016ae4560ef1048191bf0d38e8f054dc5f": {
+                "input_tokens": 677,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0,
+                "content": [
+                  {
+                    "input_tokens": 677,
+                    "cached_tokens": 0,
+                    "cache_write_tokens": 0,
+                    "output_tokens": 0
+                  }
+                ]
+              },
+              "msg_08be1f356e94127f016ae4561284208191a99a3e34f65012a7": {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 2410,
+                "content": [
+                  {
+                    "input_tokens": 2,
+                    "cached_tokens": 0,
+                    "cache_write_tokens": 0,
+                    "output_tokens": 2410
+                  }
+                ]
+              }
+            },
+            "request_fields": {
+              "instructions": {
+                "input_tokens": 4889,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            }
+          }
+        },
+        "search": {
+          "usage": {
+            "input_tokens": 50437,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 8448
+            },
+            "output_tokens": 3278,
+            "output_tokens_details": {
+              "reasoning_tokens": 846
+            },
+            "total_tokens": 53715
+          },
+          "queries": [
+            "\"pbakaus/impeccable\" 中文 安装 教程",
+            "\"pbakaus/impeccable\" 报错 求助 问题",
+            "\"pbakaus/impeccable\" 使用 案例",
+            "\"pbakaus/impeccable\" \"报错\"",
+            "\"pbakaus/impeccable\" \"求助\"",
+            "\"pbakaus/impeccable\" \"实测\"",
+            "\"pbakaus/impeccable\" \"教程\" \"安装\" 中文",
+            "\"pbakaus/impeccable\" \"不能\" \"安装\"",
+            "\"pbakaus/impeccable\" \"问题\" site:v2ex.com",
+            "\"pbakaus/impeccable\" \"报错\" \"解决\"",
+            "\"pbakaus/impeccable\" \"求助\" \"安装失败\"",
+            "\"pbakaus/impeccable\" site:linux.do",
+            "\"pbakaus/impeccable\" \"安装失败\"",
+            "\"pbakaus/impeccable\" \"实测\" \"截图\""
+          ],
+          "outcome": "cited"
+        }
+      }
+    },
+    {
+      "id": 1124219907,
+      "fullName": "HKUDS/DeepTutor",
+      "analysisId": "0660d839-9fa4-4003-8dfc-53f72b5c95d4",
+      "recommendation": "verify",
+      "summary": "DeepTutor 值得先核验“v1.7.0 安装变更与中文教材学习流程”选题，但已有中文文档且缺口证据主要来自未核验原文的检索摘要，暂不优先投入完整实测或付费教程制作。",
+      "usage": {
+        "analysis": {
+          "input_tokens": 23071,
+          "input_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0
+          },
+          "output_tokens": 2492,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 25563,
+          "attribution": {
+            "items": {
+              "msg_07e5fc0d2afb94a6016ae456c0d1408191911964d214f25df7": {
+                "input_tokens": 17503,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0,
+                "content": [
+                  {
+                    "input_tokens": 17503,
+                    "cached_tokens": 0,
+                    "cache_write_tokens": 0,
+                    "output_tokens": 0
+                  }
+                ]
+              },
+              "msg_07e5fc0d2afb94a6016ae456c0d1408191a6ce876ecac1014e": {
+                "input_tokens": 677,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0,
+                "content": [
+                  {
+                    "input_tokens": 677,
+                    "cached_tokens": 0,
+                    "cache_write_tokens": 0,
+                    "output_tokens": 0
+                  }
+                ]
+              },
+              "msg_07e5fc0d2afb94a6016ae456c31c408191b9c163ff8c35edd9": {
+                "input_tokens": 2,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 2492,
+                "content": [
+                  {
+                    "input_tokens": 2,
+                    "cached_tokens": 0,
+                    "cache_write_tokens": 0,
+                    "output_tokens": 2492
+                  }
+                ]
+              }
+            },
+            "request_fields": {
+              "instructions": {
+                "input_tokens": 4889,
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "output_tokens": 0
+              }
+            }
+          }
+        },
+        "search": {
+          "usage": {
+            "input_tokens": 42150,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 8448
+            },
+            "output_tokens": 2699,
+            "output_tokens_details": {
+              "reasoning_tokens": 529
+            },
+            "total_tokens": 44849
+          },
+          "queries": [
+            "\"HKUDS/DeepTutor\" 中文 安装 教程",
+            "\"HKUDS/DeepTutor\" 报错 求助 问题",
+            "\"HKUDS/DeepTutor\" 使用 体验",
+            "\"HKUDS/DeepTutor\" \"安装\" \"CSDN\"",
+            "\"HKUDS/DeepTutor\" \"报错\"",
+            "\"HKUDS/DeepTutor\" \"使用体验\"",
+            "site:github.com/HKUDS/DeepTutor/issues \"中文\"",
+            "\"HKUDS/DeepTutor\" \"安装失败\"",
+            "\"HKUDS/DeepTutor\" \"CSDN\" \"教程\""
+          ],
+          "outcome": "cited"
+        }
+      }
+    }
+  ]
+}
